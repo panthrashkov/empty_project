@@ -32,6 +32,8 @@ public class Application {
         return executor;
     }
 
+
+
     @Bean
     public LocaleResolver localeResolver() {
         SessionLocaleResolver sessionLocaleResolver = new SessionLocaleResolver();
